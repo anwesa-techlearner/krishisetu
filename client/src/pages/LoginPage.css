@@ -1,0 +1,116 @@
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left panel */
+.left-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.left-text {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  max-width: 80%;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.left-text h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.left-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Right panel */
+.right-panel {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form .welcome {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.login-form h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.login-btn {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #aaa;
+}
+
+.social-logins button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-user {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.lang-switch {
+  margin: 10px auto 0;
+  padding: 8px 16px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
